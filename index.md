@@ -1,15 +1,20 @@
-## Welcome to GitHub Pages
+## Install FaceSwap
 
-You can use the [editor on GitHub](https://github.com/keykanonairsola/keykanonairsola.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+We need to use an example which is not Fluid Simulation to show the ability of cloudlet. So we choose faceswap: https://github.com/cmusatyalab/faceswap
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+# dlib
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+First, we can download dlib 19.0 on https://github.com/davisking/dlib/releases/tag/v19.0. 
+Socond, we should install some tools. Input the command sudo apt-get install cmake and sudo apt-get install libboost-Python-dev.
+Third, we need to enter the dlib file, and then input the command sudo python setup.py install .
 
-```markdown
-Syntax highlighted code block
+TroubleShooing
+Maybe there is no setuptools. we need to download setuptools and install.
+Maybe CMAKE_MAKE_PROGRAM is not set. I just install make and solve the trouble.
+
+# opencv >= 24.0
+
 
 # Header 1
 ## Header 2
