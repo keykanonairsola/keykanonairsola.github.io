@@ -15,6 +15,7 @@ Maybe CMAKE_MAKE_PROGRAM is not set. I just install make and solve the trouble.
 
 # opencv >= 24.0
 
+http://blog.csdn.net/surgewong/article/details/39078251
 
 # Header 1
 ## Header 2
